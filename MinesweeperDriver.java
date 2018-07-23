@@ -22,7 +22,7 @@ public class MinesweeperDriver
       add(menu, BorderLayout.NORTH);
       
       JButton beginner = new JButton("Beginner");
-      panel.add(beginner, GridLayout.WEST);
+      panel.add(beginner, GridLayout(0, 5));
       
       
       
