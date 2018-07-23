@@ -16,11 +16,13 @@ public class MinesweeperDriver
       
       JPanel panel = new JPanel();
       add(panel);
+      panel.setLayout( new GridLayout(10,10));
       
       JLabel menu = new Jlabel("Menu");
       add(menu, BorderLayout.NORTH);
       
       JButton beginner = new JButton("Beginner");
+      panel.add(beginner, GridLayout.WEST);
       
       
       
